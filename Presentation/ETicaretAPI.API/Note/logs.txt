@@ -1,0 +1,16 @@
+﻿1.Serilog.AspNetCore
+2.Serilog.Sinks.PostgreSQL
+3.program.cs=>
+
+	-
+	-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)=>  NameClaimType=ClaimTypes.Name //ekle
+	-//burada  Authentication ve Authorization gerçekleştikten sonra username i alıp log context e push ediyoruz
+	app.Use(async (context,next) => {
+		var username = context.User?.Identity?.IsAuthenticated != null || true ? context.User.Identity.Name : null;
+		LogContext.PushProperty("user_name", username);
+		await next();
+	});
+
+4.TokenHandler(infrastracture)=> claims:new List<Claim> { new (ClaimTypes.Name,"kişiye özel karakteri yaz")}
+5.app.UseSerilogRequestLogging(); 
+	app.UseHttpLogging(); 

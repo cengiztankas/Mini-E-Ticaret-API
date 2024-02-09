@@ -1,0 +1,2 @@
+﻿1.program.cs e =>app.UseStaticFiles(); ekle wwwroot
+2.  private IWebHostEnvironment _webHostEnvironment;

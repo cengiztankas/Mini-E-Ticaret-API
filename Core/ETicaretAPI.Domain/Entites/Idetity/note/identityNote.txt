@@ -1,0 +1,9 @@
+﻿----------Domain Katmanı-----------
+
+appRole ve AppUser Adında iki entity tanımladık.  //microsoft.aspnetcore.identity.entityframeworkcore\7.0.14
+
+
+---------Persistence Katmanı-------------------------
+Context e => public class ETicaretAPIDbContext : IdentityDbContext<AppUser,AppRole,string> ekledik
+
+serviceRegistration =>   services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<ETicaretAPIDbContext>();

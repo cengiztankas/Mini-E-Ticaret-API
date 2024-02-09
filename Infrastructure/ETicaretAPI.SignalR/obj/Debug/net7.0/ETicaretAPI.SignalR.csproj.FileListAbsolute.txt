@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ETicaretAPI.SignalR.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ETicaretAPI.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ETicaretAPI.SignalR.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ETicaretAPI.SignalR.AssemblyInfo.cs
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ETicaretAPI.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\bin\Debug\net7.0\ETicaretAPI.SignalR.deps.json
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\bin\Debug\net7.0\ETicaretAPI.SignalR.dll
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\bin\Debug\net7.0\ETicaretAPI.SignalR.pdb
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\bin\Debug\net7.0\ETicaretAPI.Application.dll
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\bin\Debug\net7.0\ETicaretAPI.Domain.dll
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\bin\Debug\net7.0\ETicaretAPI.Application.pdb
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\bin\Debug\net7.0\ETicaretAPI.Domain.pdb
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ETicaretAPI.SignalR.csproj.CopyComplete
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ETicaretAPI.SignalR.dll
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\refint\ETicaretAPI.SignalR.dll
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ETicaretAPI.SignalR.pdb
+C:\Users\ASUS\source\.netCore MVC vscode\AngularDotnetCoreMiniETicaret\Infrastructure\ETicaretAPI.SignalR\obj\Debug\net7.0\ref\ETicaretAPI.SignalR.dll

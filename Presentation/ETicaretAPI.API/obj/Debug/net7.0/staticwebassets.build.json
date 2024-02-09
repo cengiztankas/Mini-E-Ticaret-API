@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "2oZIkZqX0kfVll2HFbKAKKlJWg23apGx6h3ZnxBndiM=",
+  "Source": "ETicaretAPI.API",
+  "BasePath": "_content/ETicaretAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ETicaretAPI.API\\wwwroot",
+      "Source": "ETicaretAPI.API",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\.netCore MVC vscode\\AngularDotnetCoreMiniETicaret\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "BasePath": "_content/ETicaretAPI.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\.netCore MVC vscode\\AngularDotnetCoreMiniETicaret\\Presentation\\ETicaretAPI.API\\wwwroot\\files\\success.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\.netCore MVC vscode\\AngularDotnetCoreMiniETicaret\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "files/success.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\success.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\.netCore MVC vscode\\AngularDotnetCoreMiniETicaret\\Presentation\\ETicaretAPI.API\\wwwroot\\photo-image\\editicon.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\.netCore MVC vscode\\AngularDotnetCoreMiniETicaret\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "photo-image/editicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo-image\\editicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\.netCore MVC vscode\\AngularDotnetCoreMiniETicaret\\Presentation\\ETicaretAPI.API\\wwwroot\\photo-image\\foto.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\.netCore MVC vscode\\AngularDotnetCoreMiniETicaret\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "photo-image/foto.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo-image\\foto.png"
+    }
+  ]
+}

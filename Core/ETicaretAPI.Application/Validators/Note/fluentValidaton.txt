@@ -1,0 +1,10 @@
+﻿Paketler
+1.FluentValidation
+2.FluentValidationDependency injection extensions
+3.using FluentValidation.AspNetCore;
+
+
+program.cs te bir kerelliğine 
+---builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>());--
+--.ConfigureApiBehaviorOptions(options=>options.SuppressModelStateInvalidFilter=true);-- arkada otomatik çalışan validator ı bizim kontrolümüze bırakıyor
+--builder.Services.AddControllers(op=>op.Filters.Add<ValidationFilter>())----- validationfilter i uygulamaya tanıttık

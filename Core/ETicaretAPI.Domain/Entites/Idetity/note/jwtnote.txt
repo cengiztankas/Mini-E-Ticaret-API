@@ -1,0 +1,30 @@
+﻿
+----------API Katmanı------
+1.install=>Microsoft.AspNetCore.Authentication.JwtBearer
+2.program.cs=>builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).
+                        AddJwtBearer("Admin", option =>
+                        {
+                            option.TokenValidationParameters = new()
+                            {
+                                ValidateAudience = true,//oluşturulacak token değerini kimlerin / hangi orjinlerin / hangi sitelerin kullanacağını belirlediğimiz değerdir.
+                                ValidateIssuer = true, //oluşturduğumuz token değerini kimin dağıtacağını ifade edeceğimiz alandır.
+                                ValidateLifetime = true, //oluşturulan token değerinin süresini kontrol edecek olan doğrulamadır.
+                                ValidateIssuerSigningKey = true,// üretilecek token içerisine koyulan securtyKey dir.
+
+
+                                ValidAudience = builder.Configuration["Token:Auidience"],
+                                ValidIssuer = builder.Configuration["Token:Issuer"],
+                                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"]))
+                            };
+                        });
+
+
+    ----------------
+    app.UseAuthentication();
+    ----------------Application Katmanı--------------
+   1. abstraction/Token / ITokenHandler
+
+
+       ----------------Infrastructure Katmanı--------------
+   1..install=>Microsoft.AspNetCore.Authentication.JwtBearer
+   2. services/Token / TokenHandler
